@@ -1,0 +1,3 @@
+Removed Member From Class: ClassName=ArduinoUnoShield Member=Switch 1
+Added Component: Designator=PushButton(PushButtonFrame)
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component PushButton

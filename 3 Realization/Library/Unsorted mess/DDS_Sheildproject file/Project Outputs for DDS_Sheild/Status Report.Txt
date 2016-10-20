@@ -1,0 +1,15 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [DDS_Sheild.PrjPcb]
+   Generated File[DDSShieldBoard.GTL]
+   Generated File[DDSShieldBoard.GBL]
+   Generated File[DDSShieldBoard.GM1]
+   Generated File[DDSShieldBoard.RUL]
+   Generated File[DDSShieldBoard.EXTREP]
+   Generated File[DDSShieldBoard.REP]
+
+
+Files Generated   : 6
+Documents Printed : 0
+
+Finished Output Generation At 8:25:47 AM On 10/8/2016

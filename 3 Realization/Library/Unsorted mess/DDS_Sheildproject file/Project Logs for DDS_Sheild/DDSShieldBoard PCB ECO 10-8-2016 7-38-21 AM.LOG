@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=GND Pin=PushButton-2
+Change Net Name : Old Net Name=5V New Net Name=VCC

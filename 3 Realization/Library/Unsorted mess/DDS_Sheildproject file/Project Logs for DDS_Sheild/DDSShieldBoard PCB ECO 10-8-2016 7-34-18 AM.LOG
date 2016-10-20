@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=GND Pin=PushButton-2
+Removed Member From Class: ClassName=ArduinoUnoShield Member=POT1
+Added Component: Designator=POT_5k(PCBComponent_1)
+Added Member To Class: ClassName=ArduinoUnoShield Member=Component POT_5k Component_1
