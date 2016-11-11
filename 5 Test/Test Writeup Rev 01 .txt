@@ -2,8 +2,11 @@ Project: DDS Tone Shield
 Author: Douglas Bahr
 Date: 11/11/2016
 Rev: 01
+
+Screen shots are located in "Arduino code Note = 1000 Test" flolder
+ 
 ~~~~~~~~~~~~~~~~~~~~~~~~~
-Setup:
+Setup: 
 
  I compiled code onto an attiny85 and connected a RC low pass filter with a 3dB cut off at 20kHz
  in series with a 4 component chebyshev filter comprised of two inductors with values of 10uH and
