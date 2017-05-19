@@ -44,7 +44,7 @@ Feature List
         - Operate 60-90 F
         - At least 4 channel support
         - Be able to pass digital signals
-        - Selector has multiple connections to the Arduino, and the selectrd one is connected to the microcontroller
+        - Selector has multiple connections to the Arduino, and the selected one is connected to the micro-controller
 
     FEATURE 4 State Switch
     Characteristics
@@ -144,8 +144,8 @@ Input Signal Controlling States
         Event: State switch changes
             GOTO: Manual Frequency Signal Driven State
 
-	Event: Arduino Channel Selector changes chanel
-	    # The selector connects the chosen Arduino Channel to the microcontroller
+	Event: Arduino Channel Selector changes channel
+	    # The selector connects the chosen Arduino Channel to the micro-controller
 	    GOTO: Event: Input is received
                 
     State: Manual Frequency Signal Driven State
