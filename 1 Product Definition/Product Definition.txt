@@ -2,7 +2,9 @@ Arduino DDS Tone Shield Definition
 
 
 Introduction
-There is currently no easy way to achieve a tone sign wave using the current arduino uno rev 3 board. This project looks to become an accessory to the Arduino Uno board that will generate a tone by utilizing A direct digital synthesizer in conjunction with a low pass chebyshev filter. Additionally the board will have a wireless connection that allows a phone to send information to the board, and allow a user to adjust the audio. The board also has a 3 band equalizer that allows a user to filter specific frequency regions of the the audio spectrum by hand.
+There is currently no easy way to achieve a tone sine wave using the current arduino uno rev 3 board, this project looks to become an accessory to the Arduino Uno board that will generate a tone.
+
+Utilizing A direct digital synthesizer the board completes this. Additionally the board has the ability to switch between multiple signal sources, as well as put the tone signal through a low pass chebyshev filter and 3 band equalizer to allow a user to filter specific frequency regions of the the audio spectrum by hand.
 
 
 Conventions
@@ -23,62 +25,55 @@ Product Characteristics
     
 Tone Shield 
 Feature List
-    FEATURE 1: Speaker
+    FEATURE 1 Computer Control
     Characteristics
-        - Frequency Range 20-20,000 Hz
-        - Must be heard from 6 ft away
-        - Driven power must be less than 200 mW
-        - Driven by the micro controller only
+        - Computer sends information to arduino, that controls the program
+        - Pause and play of the audio into the DDS board
 
-    FEATURE 2: Micro-Controller
-    Characteristics
-        - Can run Previously compiled program for arduino
-        - Has two communication pins for input
-		- Reads PWM
-        - Must be able to be powered by Arduino
-        - Needs a clock speed of at least 16 MHz 
-  
-    FEATURE 3 Arduino Channel Selector
+    FEATURE 2 Arduino Channel Selector
     Characteristics
         - Must be a physical switch that can be manipulated by adult hands to select lines
         - Operate 60-90 F
         - At least 4 channel support
         - Be able to pass digital signals
         - Selector has multiple connections to the Arduino, and the selected one is connected to the micro-controller
+	- The selector connects the chosen Arduino Channel to the micro-controller
 
-    FEATURE 4 State Switch
+    FEATURE 3 State Switch
     Characteristics
         - Manipulatable by adult hands
         - Binary state
         - Switch micro-controller states between manual and arduino inputs
+
+    FEATURE 4 State Indicator
+    Characteristics
+        - Output in the physical spectrum
+        - Less than 50MW power draw
 
     FEATURE 5 Variable Frequency Controller
     Characteristics
         - Manipulatable physically by adult hands
         - Information must be passable to a Micro-Controller
 
-    FEATURE 6 Chebyshev Low Pass filter
+    FEATURE 6 Micro-Controller
+    Characteristics
+        - Can run Previously compiled program for arduino
+        - Has two communication pins for input
+		- Reads PWM
+        - Must be able to be powered by Arduino
+        - Needs a clock speed of at least 16 MHz 
+
+    FEATURE 7 Chebyshev Low Pass filter
     Characteristics
         - Cut off Frequency at 20kHz
-        - Line Loss must be less than 100MW
+        - Line Loss must be less than 100mW
 
-    FEATURE 7 Amplifier
-    Characteristics
-        - Be able to handle 200 MW of current flowing through the device
-        - Be able to be manipulated by human hands
-        - System master volume control
-
-    FEATURE 8 State Indicator
-    Characteristics
-        - Output in the physical spectrum
-        - Less than 50MW power draw
-
-    FEATURE 9  EQ Slide Switch
+    FEATURE 8  EQ Slide Switch
     Characteristics
         - Manipulatable by adult hands
         - Two states
 
-    FEATURE 10 3 Band EQ
+    FEATURE 9 3 Band EQ
     Characteristics
         - Low pass, high pass, and band pass filters connected in parallel
         - Variable resistors attached to each filters output to control the individual band amplitude
@@ -86,11 +81,19 @@ Feature List
         - LPF, Pass bottom third frequencies
         - HPF, Pass top third frequencies
         - BPF, Pass middle third frequencies
-
-    FEATURE 11 Computer Control
+ 
+    FEATURE 10 Amplifier
     Characteristics
-        - Computer sends information to arduino, that controls the program
-        - Pause and play of the audio into the DDS board
+        - Be able to handle 200 mW of power flowing through the device
+        - Be able to be manipulated by human hands
+        - System master volume control
+
+    FEATURE 11 Speaker
+    Characteristics
+        - Frequency Range 20-20,000 Hz
+        - Must be heard from 6 ft away
+        - Driven power must be less than 200 mW
+        - Driven by the micro controller only
         
 
 Behavior Definition
@@ -123,10 +126,11 @@ Input Signal Controlling States
             # If manual state indicator is not chosen
                 GOTO: Idle state
 
+    State: Off 
+        Unplugged from Arduino
+            # Nothing happens
+
     State: Idle State 
-        Event: Micro Controller is set to Idle
-            # Stay in Idle state
-        
         Event: State switch changes
             GOTO: Manual Frequency Signal Driven State
 
@@ -134,7 +138,7 @@ Input Signal Controlling States
             GOTO: Arduino Frequency Signal Driven State
 
     State: Arduino Frequency Signal Driven State
-        Event: Input is received
+        Event: Uno tone signal is received by microcontroller
             # PWM out to drive speaker based on observed input from Arduino
             # Reset Idle timer
 	
@@ -145,7 +149,6 @@ Input Signal Controlling States
             GOTO: Manual Frequency Signal Driven State
 
 	Event: Arduino Channel Selector changes channel
-	    # The selector connects the chosen Arduino Channel to the micro-controller
 	    GOTO: Event: Input is received
                 
     State: Manual Frequency Signal Driven State
@@ -154,23 +157,13 @@ Input Signal Controlling States
 
 Output Signal Controlling States
     State: EQ slide switch in position A
-        Event: The Switch is in position A
-            # Signal is connected from the from Chebyshev Low Pass filter to amplifier.
-            
-        Event:The Switch is in position B
-            GOTO: EQ slide switch in position B
+	# Signal is connected from the from Chebyshev Low Pass filter to amplifier.
+
 
     State: EQ slide switch in position B
-        Event: The Switch is in position A
-            GOTO: EQ slide switch in position A
-            
-        Event: The Switch is in position B
-            # Signal is connected from the from Chebyshev Low Pass filter to the 3 band EQ, then the amplifier.
-          
+	# Signal is connected from the from Chebyshev Low Pass filter to the 3 band EQ, then the amplifier.
 
-    State: Off 
-        Unplugged from Arduino
-            # Nothing happens
+      
             
 
 Interface List
@@ -186,12 +179,20 @@ Interface List
         
 Command Definition
 
-
-Command             Description                                                 
+Command             	Description   
+1 			PC controls uno tone signal
+2			PC programs the attiny firmware through the uno
 
 
 Security's
 Regulation
 Mechanical
 Manufacturing
+
+
+
+
+
+
+
 
