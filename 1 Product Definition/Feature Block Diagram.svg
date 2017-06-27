@@ -345,6 +345,14 @@
          id="path132-0-1-3-8-5"
          inkscape:connector-curvature="0" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath166-6-2-4-9-3-64-1-2-5-4">
+      <path
+         d="M 0,1068.071 H 1420.429 V 0 H 0 Z"
+         id="path164-7-9-8-6-1-8-3-5-8-1"
+         inkscape:connector-curvature="0" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -353,9 +361,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.4"
-     inkscape:cx="2242.4265"
-     inkscape:cy="1007.5531"
+     inkscape:zoom="1.1313708"
+     inkscape:cx="4068.2538"
+     inkscape:cy="1016.9785"
      inkscape:document-units="mm"
      inkscape:current-layer="layer9"
      showgrid="false"
@@ -398,7 +406,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -478,22 +486,22 @@
            y="-300.53271" /></flowRegion><flowPara
          id="flowPara2029"
          style="font-size:37.33333206px">This diagram shows the relationship between the different event blocks that appear in the feature list. Dashed lines represent device boundries, blocks that touch the device boundary are accessable by the user.</flowPara></flowRoot>    <rect
-       style="display:inline;fill:none;fill-opacity:1;stroke:#231f20;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;fill:none;fill-opacity:1;stroke:#231f20;stroke-width:1.323;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect1111-20"
-       width="105.17188"
-       height="50.270832"
-       x="-206.61893"
-       y="157.75349" />
+       width="69.402946"
+       height="50.516464"
+       x="-206.74174"
+       y="157.63068" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-185.78409"
-       y="185.00632"
+       x="-200.98505"
+       y="185.24017"
        id="text6023"><tspan
          sodipodi:role="line"
          id="tspan6021"
-         x="-185.78409"
-         y="185.00632"
+         x="-200.98505"
+         y="185.24017"
          style="stroke-width:0.26458332">3 Band EQ</tspan></text>
   </g>
   <g
@@ -847,12 +855,12 @@
        x="-920.74976"
        y="293.29529" />
     <rect
-       style="display:inline;fill:none;fill-opacity:1;stroke:#231f20;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;fill:none;fill-opacity:1;stroke:#231f20;stroke-width:1.323;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect1111-8"
-       width="105.17188"
-       height="50.270832"
-       x="-206.83836"
-       y="69.590607" />
+       width="68.010529"
+       height="50.527214"
+       x="-206.96655"
+       y="69.462418" />
     <rect
        style="display:inline;fill:none;fill-opacity:1;stroke:#231f20;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect1111-83"
@@ -872,7 +880,7 @@
        id="rect1111-5"
        width="61.565514"
        height="92.479958"
-       x="-37.540596"
+       x="-23.782249"
        y="89.573036" />
     <rect
        style="display:inline;fill:none;fill-opacity:1;stroke:#231f20;stroke-width:1.62931311;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -891,6 +899,13 @@
          id="path126-1-8-9-0-0"
          inkscape:connector-curvature="0" />
     </g>
+    <rect
+       style="display:inline;fill:none;fill-opacity:1;stroke:#231f20;stroke-width:1.32299995;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1111-5-6"
+       width="54.04911"
+       height="50.06023"
+       x="-103.97127"
+       y="69.695908" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1003,23 +1018,23 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-178.55431"
-       y="97.932037"
+       x="-196.5616"
+       y="95.827293"
        id="text6031"><tspan
          sodipodi:role="line"
          id="tspan6029"
-         x="-178.55431"
-         y="97.932037"
+         x="-196.5616"
+         y="95.827293"
          style="stroke-width:0.26458332">Amplifier</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-27.908613"
+       x="-14.15027"
        y="141.38449"
        id="text6035"><tspan
          sodipodi:role="line"
          id="tspan6033"
-         x="-27.908613"
+         x="-14.15027"
          y="141.38449"
          style="stroke-width:0.26458332">Speaker</tspan></text>
     <flowRoot
@@ -1033,7 +1048,23 @@
            height="64.649765"
            x="-3487.0466"
            y="209.34178" /></flowRegion><flowPara
-         id="flowPara6043" /></flowRoot>  </g>
+         id="flowPara6043" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-93.110031"
+       y="90.127464"
+       id="text6031-7"><tspan
+         sodipodi:role="line"
+         id="tspan6029-1"
+         x="-93.110031"
+         y="90.127464"
+         style="stroke-width:0.26458332">Master </tspan><tspan
+         sodipodi:role="line"
+         x="-93.110031"
+         y="103.35663"
+         style="stroke-width:0.26458332"
+         id="tspan4901">Volume</tspan></text>
+  </g>
   <g
      inkscape:groupmode="layer"
      id="layer9"
@@ -1669,7 +1700,7 @@
     </g>
     <g
        style="display:inline"
-       transform="matrix(0.37290677,0,0,-0.35277777,801.40891,336.8804)"
+       transform="matrix(0,-0.37290677,-0.35277777,0,1037.5315,544.58613)"
        id="g160-1-0-7-0-2-4-9">
       <g
          id="g162-7-8-1-2-7-9-5"
@@ -1689,7 +1720,7 @@
     <g
        style="display:inline"
        id="g156-2-1-2-1-9-8-5-1"
-       transform="matrix(-0.45098609,0,0,0.35277777,1099.2162,289.91489)">
+       transform="matrix(0,0.23363191,0.35277777,0,990.56564,246.44895)">
       <path
          d="M 0,0 H 110.982"
          style="fill:none;stroke:#50ade5;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -1698,7 +1729,7 @@
     </g>
     <g
        style="display:inline"
-       transform="matrix(0.37290677,0,0,-0.35277777,800.73642,271.5739)"
+       transform="matrix(0.37290677,0,0,-0.35277777,734.78766,255.52008)"
        id="g160-1-0-7-0-2-4-9-5">
       <g
          id="g162-7-8-1-2-7-9-5-6"
@@ -1718,7 +1749,7 @@
     <g
        style="display:inline"
        id="g156-2-1-2-1-9-8-5-1-4"
-       transform="matrix(-0.4509861,0,0,0.35277777,1098.5437,224.6084)">
+       transform="matrix(-0.18671123,0,0,0.35277777,1033.1311,208.55458)">
       <path
          d="M 0,0 H 110.982"
          style="fill:none;stroke:#50ade5;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -1929,6 +1960,35 @@
              inkscape:connector-curvature="0" />
         </g>
       </g>
+    </g>
+    <g
+       style="display:inline"
+       transform="matrix(0.37290677,0,0,-0.35277777,814.12115,256.67014)"
+       id="g160-1-0-7-0-2-4-9-5-6">
+      <g
+         id="g162-7-8-1-2-7-9-5-6-6"
+         clip-path="url(#clipPath166-6-2-4-9-3-64-1-2-5-4)"
+         transform="translate(415.81653,-17.072511)">
+        <g
+           id="g168-5-0-4-1-3-8-0-5-5"
+           transform="translate(383.6787,150.2031)">
+          <path
+             d="m 0,0 -5.258,8.646 0.295,0.197 14.1,-5.601 C 14.049,2.162 18.963,1.081 23.875,0 18.963,-1.081 14.049,-2.161 9.137,-3.243 l -14.1,-5.601 -0.295,0.149 z"
+             style="fill:#50ade5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path170-6-6-3-3-0-1-3-6-0"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+    <g
+       style="display:inline"
+       id="g156-2-1-2-1-9-8-5-1-4-0"
+       transform="matrix(-0.12979049,0,0,0.35277777,1112.5801,209.70464)">
+      <path
+         d="M 0,0 H 110.982"
+         style="fill:none;stroke:#50ade5;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path158-7-6-0-3-6-0-7-3-2-9"
+         inkscape:connector-curvature="0" />
     </g>
   </g>
   <g

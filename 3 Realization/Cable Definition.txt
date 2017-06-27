@@ -1,0 +1,2 @@
+Purchase a USB cable
+	Arduino UNO <---> Computer

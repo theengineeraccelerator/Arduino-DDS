@@ -1,0 +1,20 @@
+[Eagle]
+Version="08 01 01"
+Platform="Windows"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="C:/Users/zache_000/Documents/3. Projects/4. Eagle Design/Eagle Libraries/Generic/1-Generic.lbr"
+UsedLibrary="DDS Tone Shield.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="873 2 1900 1029"
+State=2
+Number=0
+
+[Desktop]
+Screen="1920 1080"
+Window="Win_1"
