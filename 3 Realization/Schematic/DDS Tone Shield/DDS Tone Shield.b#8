@@ -650,11 +650,11 @@ design rules under a new name.</description>
 <element name="C6" library="DDS Tone Shield" package="1206" value="4.7uF" x="-21.59" y="46.99" rot="R90">
 <attribute name="PROD_ID" value="CAP-10300" x="-21.59" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C7" library="DDS Tone Shield" package="1206" value="4.7uF" x="-34.29" y="91.44" rot="R90">
-<attribute name="PROD_ID" value="CAP-10300" x="-34.29" y="91.44" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C7" library="DDS Tone Shield" package="1206" value="4.7uF" x="-37.592" y="73.66" rot="R90">
+<attribute name="PROD_ID" value="CAP-10300" x="-37.592" y="73.66" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C8" library="DDS Tone Shield" package="1206" value="4.7uF" x="-29.21" y="53.086">
-<attribute name="PROD_ID" value="CAP-10300" x="-29.21" y="53.086" size="1.778" layer="27" display="off"/>
+<element name="C8" library="DDS Tone Shield" package="1206" value="4.7uF" x="-21.59" y="66.548" rot="R90">
+<attribute name="PROD_ID" value="CAP-10300" x="-21.59" y="66.548" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C9" library="DDS Tone Shield" package="1206" value="4.7uF" x="-44.45" y="91.44" rot="R90">
 <attribute name="PROD_ID" value="CAP-10300" x="-44.45" y="91.44" size="1.778" layer="27" rot="R90" display="off"/>
@@ -759,13 +759,13 @@ design rules under a new name.</description>
 <contactref element="C9" pad="2"/>
 <contactref element="C8" pad="2"/>
 <contactref element="C7" pad="2"/>
-<wire x1="-34.29" y1="92.84" x2="-16.64" y2="104.14" width="0" layer="19" extent="1-1"/>
-<wire x1="-44.45" y1="92.84" x2="-34.29" y2="92.84" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.592" y1="75.06" x2="-16.64" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-44.45" y1="92.84" x2="-37.592" y2="75.06" width="0" layer="19" extent="1-1"/>
 <wire x1="-43.688" y1="73.914" x2="-44.45" y2="92.84" width="0" layer="19" extent="1-1"/>
 <wire x1="-32.258" y1="66.548" x2="-43.688" y2="73.914" width="0" layer="19" extent="1-1"/>
 <wire x1="-32.878" y1="58.46" x2="-32.258" y2="66.548" width="0" layer="19" extent="1-1"/>
-<wire x1="-27.81" y1="53.086" x2="-32.878" y2="58.46" width="0" layer="19" extent="1-1"/>
-<wire x1="-21.59" y1="48.39" x2="-27.81" y2="53.086" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.59" y1="67.948" x2="-32.878" y2="58.46" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.59" y1="48.39" x2="-21.59" y2="67.948" width="0" layer="19" extent="1-1"/>
 <wire x1="-16.51" y1="50.8" x2="-21.59" y2="48.39" width="0" layer="19" extent="1-1"/>
 <wire x1="-42.784" y1="58.46" x2="-32.878" y2="58.46" width="0" layer="19" extent="1-1"/>
 <wire x1="-40.64" y1="50.416" x2="-42.784" y2="58.46" width="0" layer="19" extent="1-1"/>
@@ -789,9 +789,9 @@ design rules under a new name.</description>
 <contactref element="C9" pad="1"/>
 <contactref element="C8" pad="1"/>
 <contactref element="C7" pad="1"/>
-<wire x1="-44.45" y1="90.04" x2="-34.29" y2="90.04" width="0" layer="19" extent="1-1"/>
-<wire x1="-30.61" y1="53.086" x2="-34.29" y2="90.04" width="0" layer="19" extent="1-1"/>
-<wire x1="-21.59" y1="45.59" x2="-30.61" y2="53.086" width="0" layer="19" extent="1-1"/>
+<wire x1="-44.45" y1="90.04" x2="-37.592" y2="72.26" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.59" y1="65.148" x2="-37.592" y2="72.26" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.59" y1="45.59" x2="-21.59" y2="65.148" width="0" layer="19" extent="1-1"/>
 <wire x1="-16.51" y1="45.72" x2="-21.59" y2="45.59" width="0" layer="19" extent="1-1"/>
 <wire x1="-19.05" y1="26.67" x2="-21.59" y2="45.59" width="0" layer="19" extent="1-1"/>
 <wire x1="-39.33" y1="27.32" x2="-19.05" y2="26.67" width="0" layer="19" extent="1-1"/>
