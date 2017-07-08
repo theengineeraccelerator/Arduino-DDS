@@ -11,7 +11,7 @@ UsedLibrary="DDS Tone Shield.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="873 2 1900 1029"
+Loc="884 1 1902 1033"
 State=2
 Number=0
 

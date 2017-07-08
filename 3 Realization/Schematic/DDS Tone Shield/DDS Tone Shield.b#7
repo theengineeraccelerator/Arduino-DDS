@@ -680,9 +680,9 @@ design rules under a new name.</description>
 <element name="R1" library="DDS Tone Shield" package="1206" value="" x="-30.48" y="38.1" rot="R90"/>
 <element name="R2" library="DDS Tone Shield" package="1206" value="" x="-48.006" y="45.72" rot="R90"/>
 <element name="R3" library="DDS Tone Shield" package="1206" value="" x="-40.64" y="51.816" rot="R90"/>
-<element name="R4" library="DDS Tone Shield" package="1206" value="" x="-81.28" y="100.33" rot="R90"/>
+<element name="R4" library="DDS Tone Shield" package="1206" value="" x="-42.418" y="67.31" rot="R90"/>
 <element name="R5" library="DDS Tone Shield" package="1206" value="" x="-56.134" y="45.72" rot="R90"/>
-<element name="R6" library="DDS Tone Shield" package="1206" value="" x="-15.24" y="104.14"/>
+<element name="R6" library="DDS Tone Shield" package="1206" value="" x="-23.876" y="80.01"/>
 <element name="R9" library="DDS Tone Shield" package="1206" value="" x="-52.324" y="51.816" rot="R90"/>
 <element name="S1" library="DDS Tone Shield" package="DIPSWITCH-04-SMD" value="DIP-04SMD" x="-52.07" y="35.56" rot="R90">
 <attribute name="PROD_ID" value="SWCH-12418" x="-52.07" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
@@ -759,7 +759,7 @@ design rules under a new name.</description>
 <contactref element="C9" pad="2"/>
 <contactref element="C8" pad="2"/>
 <contactref element="C7" pad="2"/>
-<wire x1="-37.592" y1="75.06" x2="-16.64" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.592" y1="75.06" x2="-25.276" y2="80.01" width="0" layer="19" extent="1-1"/>
 <wire x1="-44.45" y1="92.84" x2="-37.592" y2="75.06" width="0" layer="19" extent="1-1"/>
 <wire x1="-43.688" y1="73.914" x2="-44.45" y2="92.84" width="0" layer="19" extent="1-1"/>
 <wire x1="-32.258" y1="66.548" x2="-43.688" y2="73.914" width="0" layer="19" extent="1-1"/>
@@ -812,7 +812,7 @@ design rules under a new name.</description>
 <contactref element="S2" pad="P$3"/>
 <contactref element="LED1" pad="A"/>
 <contactref element="R6" pad="2"/>
-<wire x1="-19.05" y1="31.75" x2="-13.84" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.05" y1="31.75" x2="-22.476" y2="80.01" width="0" layer="19" extent="1-1"/>
 <wire x1="-38.33" y1="30.48" x2="-19.05" y2="31.75" width="0" layer="19" extent="1-1"/>
 <wire x1="-58.32" y1="26.67" x2="-38.33" y2="30.48" width="0" layer="19" extent="1-1"/>
 <wire x1="-58.32" y1="19.05" x2="-58.32" y2="26.67" width="0" layer="19" extent="1-1"/>
@@ -877,7 +877,7 @@ design rules under a new name.</description>
 <contactref element="U$4" pad="P$3"/>
 <wire x1="-54.65" y1="78.09" x2="-32.258" y2="71.628" width="0" layer="19" extent="1-1"/>
 <wire x1="-30.52" y1="42.97" x2="-32.258" y2="71.628" width="0" layer="19" extent="1-1"/>
-<wire x1="-81.28" y1="101.73" x2="-54.65" y2="78.09" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.418" y1="68.71" x2="-54.65" y2="78.09" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GAIN">
 <contactref element="J3" pad="4"/>
@@ -905,7 +905,7 @@ design rules under a new name.</description>
 <contactref element="U$5" pad="P$2"/>
 <contactref element="R4" pad="1"/>
 <wire x1="-52.69" y1="60.96" x2="-32.878" y2="60.96" width="0" layer="19" extent="1-1"/>
-<wire x1="-81.28" y1="98.93" x2="-52.69" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.418" y1="65.91" x2="-52.69" y2="60.96" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

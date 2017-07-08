@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -162,9 +162,14 @@
 <board>
 <plain>
 <wire x1="0" y1="0" x2="160" y2="0" width="0" layer="20"/>
-<wire x1="160" y1="0" x2="160" y2="100" width="0" layer="20"/>
-<wire x1="160" y1="100" x2="0" y2="100" width="0" layer="20"/>
-<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="160" y1="0" x2="160" y2="124.892" width="0" layer="20"/>
+<wire x1="160" y1="124.892" x2="0" y2="124.892" width="0" layer="20"/>
+<wire x1="0" y1="124.892" x2="0" y2="0" width="0" layer="20"/>
+<hole x="-113.792" y="129.54" drill="0.6"/>
+<hole x="41.148" y="103.124" drill="36.2966"/>
+<wire x1="15.494" y1="82.296" x2="15.494" y2="124.968" width="0.4064" layer="51"/>
+<wire x1="15.494" y1="124.968" x2="68.834" y2="124.968" width="0.4064" layer="51"/>
+<wire x1="68.834" y1="124.968" x2="68.834" y2="82.55" width="0.4064" layer="51"/>
 </plain>
 <libraries>
 <library name="1-Generic">
