@@ -1,0 +1,12 @@
+Presentation Guidelines
+	- This is an overview of your project. 
+	- Audience: Someone who understands the technical subjects but is not familiar with your project
+	- Presentations are a support for your spoken words not a replacement for them. 
+	- No sentences. If you put in prose then people will read the text as opposed to listen to you.
+	- Use bullet points
+	- Use graphics if possible
+	- 1 minute max per page
+  - 10 minute talk. 5 minutes of questions
+
+
+	

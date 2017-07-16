@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=GND Pin=POT 1-Pot_Gnd
-Removed Pin From Net: NetName=5V Pin=POT 1-Pot_High
-Removed Pin From Net: NetName=5V Pin=Switch 1-0
-Removed Pin From Net: NetName=GND Pin=Switch 1-2
