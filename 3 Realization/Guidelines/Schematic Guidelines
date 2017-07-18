@@ -1,0 +1,97 @@
+Schematic Guidelines
+The Engineer Accelerator
+Malcolm Knapp
+
+- General
+	- Must have a frame with Project, Designer Name, Rev, and Date
+	- All components should have Name and Value displayed
+- Architecture
+	- Inputs on the left, outputs on the right
+	- All text should be readable
+	- Group related components. 
+- References
+	Resistors - R
+	Capacitors - C
+	Indicators - L
+	Transistor - Q
+	Connectors - JP
+	ICs - U
+	Crystals - X
+	LEDs - LED
+	Switches - SW
+- Standard Passives
+	- Standard resistor package, wattage, tolerance called out. 
+	  For the project the standard labels are 1206, .25W, 5%
+	- Standard capacitor package, tolerance, voltage called out 
+	  For the project the standard labels are: 603, 25V, 20% 
+- Passive Labels if non-standard
+	- Resistors 
+		- Value
+		- Tolerance
+		- Wattage
+	- Capacitors
+		- Value
+		- Voltage
+		- Tolerance
+	- Inductors
+		- Value
+		- Max Current
+		- Package
+	- Diodes
+		- Value
+		- Max Current
+		- Package
+	- LEDs
+		- Name
+		- Color
+- Nets
+	- Use standard power and ground symbols for power and ground rails
+	- Name all nets. Display these names for all nets except trivial ones. For example the net between a current limit resistor and an LED does not have to be displayed. 
+	- No four way connections
+	- No nets overlapping with pins
+	- All net connections should be called out with a junction
+	- Air wires can be used so long as it is clear that the net is connected to another place in the schematic. If you use a air wire indicate this with a named floating net. 
+
+- ERC
+	Errors - These you must fix
+		Close but unconnected wires
+		Missing Junction
+		Only One Pin unless that pin is a No Connected (NC)		Pin Without Net
+	Ignorable - These you can Approve
+
+    
+    
+    
+    
+    
+    
+    
+ - Standard Passives
+	- Standard resistor package, wattage, tolerance called out. 
+	  For the project the standard labels are 1206, .25W, 5%
+	- Standard capacitor package, tolerance, voltage called out 
+	  For the project the standard labels are: 603, 25V, 20% 
+- Passive Labels if non-standard
+	- Resistors 
+		- Value
+		- Tolerance
+		- Wattage
+	- Capacitors
+		- Value
+		- Voltage
+		- Tolerance
+	- Inductors
+		- Value
+		- Max Current
+		- Package
+	- Diodes
+		- Value
+		- Max Current
+		- Package
+	- LEDs
+		- Name
+		- Color   
+    
+    
+    
+    - Name all nets. Display these names for all nets except trivial ones. For example the net between a current limit resistor and an LED does not have to be displayed.

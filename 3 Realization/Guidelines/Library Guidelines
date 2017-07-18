@@ -1,0 +1,31 @@
+Library Guidelines
+The Engineer Accelerator
+Malcolm Knapp
+
+Symbols
+	- Origin is center of the symbol
+	- ICs
+		- Follow Electrical logic not physical layout
+			- VCC upper left
+			- GND lower right
+			- Inputs on left
+			- Outputs on right
+	- Name and Value Called out
+
+Footprint
+	- Name called out
+	- Must have a component outline 
+	- Origin in the center of the footprint
+	- ICs
+		- Call out pin 1
+	- Connectors
+		- Call out pin 1
+	- Diodes 
+		- Call out polarity
+	- Capacitors
+		- For polarized capacitors call out positive pin
+
+		
+
+
+	

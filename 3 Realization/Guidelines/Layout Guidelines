@@ -1,0 +1,86 @@
+Layout Guidelines
+The Engineer Accelerator
+Malcolm Knapp
+
+Layer Stack Up
+	- One Layer
+		- Signal. component, power and Ground
+	- Two Layer
+		- Signal, component, Power
+		- GND Plane
+	- Four layer
+		- Signal and component
+		- GND
+		- Power
+		- Signal
+	- Six layer
+		- Signal and component
+		- GND
+		- Signal
+		- Signal
+		- Power
+		- Signal and component
+
+Placement
+General
+	- All components should have Name only displayed
+	- Group Components by logical function
+		- Power
+		- I/O
+		- Digital
+		- Analog
+		- RF
+	- Orient components so connections between them are as straight line as possible
+	- Orient components so the the number of signal crosses is minimized
+Connectors
+	- Place on as few sides as possible
+	- Coordinate with mechanical design
+Bypass capacitors
+	- If possible route the power trace through to the bypass capacitor before connecting to the power plane
+	- Place as close as possible to power pin
+
+Routing
+	- Via to Via
+	- Maze Routing
+	- X-Y routing
+		- Route horizontally in one layer
+		- Route vertically in another layer
+	- Route traces as short as possible
+	- Route Critical Signals first
+		- Clocks
+		- Differential Signals
+		- Bypassing
+		- Fast Digital
+		- Analog
+		- Slow Digital
+		- DC
+	- Routing differential signals so they have the same overall length to prevent phase differences. Use meanders if needed. 
+	- For electrically long traces 
+		- use termination 
+		- stub branches must be electrically short to prevent reflections. 
+		- If vias are needed back drill them to prevent reflections. 
+	- Space traces 3 time trace width center to center to minimize crosstalk 
+	- 45° Bends on corner to increase routing density
+
+Milled Board
+	- Route traces hole components on the opposite side from where they are placed. 
+	- Round corners board to reduce wear on the CNC
+
+Drills
+	- Minimize number of drill sizes
+
+Silkscreen
+	- Only references should be displayed
+	- All references should be the same size a readable
+	- If possible the reference should be visible when the component has been placed  
+
+DRC
+	Errors - These you must fix
+		Drill
+		Clearance
+		Overlap
+	Ignorable - These you can Approve
+		Stopmask
+		Silkscreen overlap only if it does not impact readability
+
+

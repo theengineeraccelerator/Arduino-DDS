@@ -1,0 +1,6 @@
+Version Control Guidelines
+- Use a major and minor version numbers (i.e. X.X or 0.2, 1.4, 2.0)
+	- The major version number is for external use
+	- the minor version number is for internal use
+- Increment the version number 
+ 
