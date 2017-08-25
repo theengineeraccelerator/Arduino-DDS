@@ -1,4 +1,4 @@
-Layout Guidelines
+﻿Layout Guidelines
 The Engineer Accelerator
 Malcolm Knapp
 
@@ -82,5 +82,3 @@ DRC
 	Ignorable - These you can Approve
 		Stopmask
 		Silkscreen overlap only if it does not impact readability
-
-
