@@ -20,7 +20,7 @@ Product Characteristics
     - Width (Z): <5cm
     - Target Cost: <25$
     - Product Life Time Target: 1 year
-    - Operating Temperature: 60 - 90 F
+    - Operating Temperature: 35 - 90 F
 
     
 Tone Shield 
@@ -33,7 +33,6 @@ Feature List
     FEATURE 2 Arduino Channel Selector
     Characteristics
         - Must be a physical switch that can be manipulated by adult hands to select lines
-        - Operate 60-90 F
         - At least 4 channel support
         - Be able to pass digital signals
         - Selector has multiple connections to the Arduino, and the selected one is connected to the micro-controller
@@ -47,8 +46,8 @@ Feature List
 
     FEATURE 4 State Indicator
     Characteristics
-        - Output in the physical spectrum
-        - Less than 50MW power draw
+        - LED that displays output signal.
+        - Less than 50mW power draw.
 
     FEATURE 5 Variable Frequency Controller
     Characteristics
@@ -65,8 +64,8 @@ Feature List
 
     FEATURE 7 Chebyshev Low Pass filter
     Characteristics
-        - Cut off Frequency at 20kHz
-        - Line Loss must be less than 100mW
+        - Cut off Frequency at 20kHz.
+        - Line attenuation: Signal does not drop below 50mV.
 
     FEATURE 8  EQ Slide Switch
     Characteristics
@@ -98,19 +97,22 @@ Feature List
 
 Behavior Definition
 Product States:
-	+ Initial Power On State
+	Input Signal Controlling States
+		+ Initial Power On State
 	
-	+ Idle State
+		+ Idle State
 
-	+ Arduino Frequency Signal Driven State
+		+ Arduino Frequency Signal Driven State
 
-	+ Manual Frequency Signal Driven State
+		+ Manual Frequency Signal Driven State
+	
+		+ Off State
 
-	+ EQ Slide Switch position A
+	Output Signal Controlling States
+		+ EQ Slide Switch position A
 
-	+ EQ Slide Switch position B
+		+ EQ Slide Switch position B
 
-	+ Off State
 
 
 Detailed Behavior
