@@ -59,6 +59,5 @@ void loop() { }
 
 ISR(TIMER0_COMPA_vect) {
   Acc = Acc + tword_m;  //The accumulator
-  icnt = Acc >> 24; //Top eight bits to indicate where we are stepping in the wave table
-  OCR1B = pgm_read_byte_near(sine256 + icnt);  //OCR1B is the register output for pin 4
+OCR1B = (Acc >> 8) & 0x80;
 } 
